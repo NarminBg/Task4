@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman'
+}
+
+a{
+    text-decoration: none;
+}
+p{
+   color: rgba(255, 255, 255, 0.75);
+}
+
+.header a{
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.logo{
+    float: left;
+    font-size: 30px;
+    margin-top: -10px;
+}
+.logo a{
+    font-size: 25px;
+    margin-left: 50px;
+    transition: .5s;
+}
+.logo a:hover{
+    color: #fff;
+}
+.navbar{
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.navbar a{
+    margin-left: 40px;
+    transition: .5s;
+}
+.navbar a:hover{
+    color: #fff;
+}
+.header{
+    padding: 18px 18rem;
+    position: fixed;
+    width: 100%;
+}
+.first{
+    background-image: linear-gradient(to bottom, rgb(189 160 139 / 80%) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 25rem;
+    text-align: center;
+}
+.first h1{
+    font-size: 56px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.divider{
+    width: 60px;
+    border: 0;
+    display: inline-block;
+    background-color: #f4623a;
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    opacity: 1;
+}
+hr{
+    border: 0;
+}
+.text{
+    width: 85%;
+    margin: auto;
+}
+.text p{
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+}
+.text a{
+    font-weight: bold;
+    background-color: #f4623a;
+    border-radius: 35px;
+    font-size: 15px;
+    color: #fff;
+    padding: 25px 35px;
+    transition: .5s;
+}
+.text a:hover{
+    background-color: #be421f;
+}
+.second{
+    padding: 8rem;
+    background-color: #f4623a;
+    color: #fff;
+    text-align: center;
+}
+.second .divider2{
+    background-color: #fff;
+}
+.second a{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #fff;
+    color: black;
+    display: inline-block;
+    transition: 1s;
+}
+.second a:hover{
+    background-color: #ada8a8;
+}
+.second p{
+    width: 50%;
+    font-size: 20px;
+    margin: auto;
+}
+.text2 p{
+    margin-bottom: 30px;
+}
+.third{
+    padding: 10rem;
+    text-align: center;
+}
+.third .row{
+    width: 20%;
+    float: left;
+    margin-left: 3.5rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.third p{
+    color: rgb(88, 86, 86);
+    font-size: 20px;
+}
+.third .divider{
+    display: block;
+}
+.third h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.third h2{
+    font-size: 2rem;
+}
+.third .option{
+    text-align: center;
+}
+.third .general{
+    margin-top: 3rem;
+}
+.fourth{
+    float: left;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+.fourth img{
+    width: 100%;
+    display: block;
+    transition: 0.5s;
+}
+.fourth img:hover{
+    transform: scale(1.2);
+}
+.images{
+    width: 33.333%;
+    float: left;
+    overflow: hidden;
+}
+.fifth{
+    padding: 7rem;
+    background-color: #212529;
+    text-align: center;
+}
+.fifth h1{
+    color: #fff;
+    margin-bottom: 5rem;
+}
+.fifth a{
+    color: black;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 35px;
+    font-weight: bold;
+    transition: 1s;
+}
+.fifth a:hover{
+    background-color: #c7c4c4;
+}
+.sixth{
+    padding: 8rem;
+    text-align: center;
+}
+.sixth p{
+    font-size: 20px;
+    width: 39%;
+    margin: auto;
+    color:#6c757d;
+    margin-bottom: 2rem;
+}
+.inputs{
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+}
+.inputs input{
+    width: 75%;
+    height: 60px;
+    margin: auto;
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ada8a8;
+}
+textarea{
+    width: 75%;
+    height: 200px;
+    margin: auto;
+    padding: 10px 10px;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #ada8a8;
+    font-size: 18px;
+    margin-bottom: 20px;
+    resize: none;
+}
+.inputs a{
+    width: 75%;
+    margin: auto;
+    color: #fff;
+    background-color: #f4623a;
+    border-color: #f4623a;
+    padding: 20px 60px;
+    border-radius: 50px;
+    display: block;
+    margin-bottom: 4rem;
+    transition: .5s;
+}
+.inputs a:hover{
+    background-color: #b44324;
+}
+.footer{
+    padding: 3rem;
+    text-align: center;
+    background-color: #eef0f1;
+}
+.footer p {
+    color: #6c757d;
+    font-size: 17px;
+}
